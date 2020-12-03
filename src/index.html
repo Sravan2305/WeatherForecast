@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <style>
+        form{
+     text-align: center;
+     margin: 200px 0px 0px 50px;
+
+}
+body{
+    background-image: linear-gradient(rgb(111, 211, 241) , white);
+}
+input{
+    font-size: 30pt;
+    font-style: cursive;
+    font-weight: 10000;
+    border: gold solid 5px;
+    box-shadow: 20px;
+    color: mediumblue;
+}
+button{
+    font-size: 30pt;
+    font-style: cursive;
+    color: darkorange;
+
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    padding: 5px;
+    background-color: rgb(180, 240, 180);
+    border: steelblue solid 2px ;
+}
+.output{
+
+        text-align: center;
+        margin: 20px 0px 0px 50%;
+        color: black;
+        background-color: white;
+   
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; script-src 'self' https://somedomain.com/ 'unsafe-inline' 'unsafe-eval';  media-src *">
+    <title>Weather Telecast</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <input name="city" type="text" placeholder="City..." id="city" >
+        <button id= "check" > Check </button>
+        <p id="output" style="font-size: 30; margin-top: 30px; font-weight: 100000; color: rgb(0, 4, 255);">Enter City Name  </p>
+    </form>
+    
+    <script  src="edit.js"></script>
+</body>
+</html>
